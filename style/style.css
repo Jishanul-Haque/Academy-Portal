@@ -1,0 +1,602 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* nav bar st */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.all-nave {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img {
+    display: flex
+;
+    align-items: center;
+    gap: 20px;
+}
+ul {
+    gap: 32px;
+}
+
+h1.schol {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+a.Home {
+    font-size: 20px;
+    color: #fea301;
+}
+a.About{
+    font-size: 20px;
+    color: #01acfd;
+}
+a.Facilities{
+    font-size: 20px;
+    color: #05d4df;
+}
+button.btn:hover{
+    background-color: rgb(182, 182, 182);
+}
+a.Admission {
+    font-size: 20px;
+    color: #5708b9;
+}
+
+button.btn {
+    width: 186px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #fea301;
+    margin-left: 186px;
+    cursor: pointer;
+}
+
+a.content {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* header section st */
+h1.Empowering {
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 56px;
+    color: #fea301;
+}
+
+h1.students {
+    margin-left: 90px;
+    font-size: 56px;
+    font-weight: bold;
+}
+span.towards {
+    color: #01acfd;
+}
+.header-container {
+    margin-left: 53px;
+}
+p.paragrap {
+    color: #727272;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+button.Enroll {
+    height: 40px;
+    width: 170px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+section.header-section {
+    display: flex;
+}
+
+.header-img-container {
+    margin-left: 60px;
+}
+button.Enroll:hover {
+    background-color: rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+/* main section stard */
+main {
+    background-image: url("../img/assets/bg.png");
+}
+
+h1.h1 {
+    font-size: 45px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+marquee.mk {
+    font-size: 20px;
+}
+/* box school */
+.img-box1 {
+    background: linear-gradient(to bottom, #d2f1ff, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+.Curriculum-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.img-box2 {
+    background: linear-gradient(to bottom, #fff6e3, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+.img-box3 {
+    background: linear-gradient(to bottom, #f0e5fe, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+p.Cum {
+    padding: 5px;
+    color: #757272;
+}
+a.Read {
+    text-decoration: none;
+    color: #01acfd;
+}
+.icon {
+    text-align: center;
+}
+i#font {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+i#font:hover{
+    color: #f0e5fe;
+}
+
+i#font {
+    color: #ffa000;
+    cursor: pointer;
+}
+
+
+
+/* main card giride */
+section.main-section {
+    width: 100%;
+}
+section.Stories-container {
+    margin-top: 120px;
+    background-image: url("../img/assets/bg.png");
+    
+}
+marquee.mk {
+    color: red;
+}
+p.pra {
+    margin-top: 30px;
+}
+section.background-img {
+    background: linear-gradient(to top, #f9e0b6, #ffffff 80%);
+    height: 1130px;
+}
+h1.card-title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+h2.h2 {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 16px;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    
+  }
+
+  .card-1 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .conrent {
+    padding: 40px;
+}
+  .card.large {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 540px;
+    height: 750.52px;
+    border-radius: 16px;
+    background-color: white;
+  }
+  
+  .card-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-1 .content {
+    padding: 15px;
+  }
+  
+  .card-1 .content .date {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .card-1 .content h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .card-1 .content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  span.date1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background: #3cd8e8;
+    border-radius: 10px;
+    color: white;
+}
+  span.date {
+
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background: #95b226;
+    border-radius: 10px;
+    color: white;
+}
+
+  span.date2 {
+
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background:#5d58f0;;
+    border-radius: 10px;
+    color: white;
+}
+  
+
+.seemore-btn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+button.All-view:hover{
+    background-color: #555;
+}
+
+button.All-view {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* hhf */
+/* Footer Styles */
+.footer-section{
+    background-color: #01acfd;
+    color: white;
+}
+footer.footer-section {
+    height: 400px;
+    padding: 100px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-title{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+.footer-title h2,.footer-title h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-title p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+.footer-title ul li{
+    margin-bottom: 10px;
+}
+.footer-title ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-title ul li a:hover{
+    color: white;
+}
+
+.socil-icons{
+    margin: 0 5px;
+    font-size: 20px;
+}
+.social-icons {
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
+h3.About {
+    font-size: 24px;
+}
+p.pa {
+    font-size: 20px;
+}
+h2.h3 {
+    font-size: 30px;
+}
+h3.h3 {
+    font-size: 26px;
+}
+
+/* media quary st */
+
+
+
+/* Styling for the hamburger menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger .bar {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease; 
+}
+/* media nav */
+@media (max-width: 570px) {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+}
+
+.section-center {
+  min-width: 100%;
+}
+
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/* nav end */
+@media (max-width: 570px) {
+    section.header-section {
+            flex-direction: column-reverse;
+            gap: 20px;
+            width: 94%;
+    }
+    img.imgss1 {
+        width: 100%;
+    }
+    .header-container {
+        text-align: center;
+        margin-right: 70px;
+    }
+    h1.students {
+        font-size: 2rem;
+    }
+    h1.Empowering {
+        font-size: 2rem;
+    }
+    p.paragrap {
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+    button.Enroll {
+        margin-top: 40px;
+    }
+    .main-container {
+        text-align: center;
+    }
+    h1.h1 {
+        font-size: 2rem;
+    }
+    .Curriculum-img {
+        flex-direction: column;
+        gap: 22px;
+        width: 90%;
+        align-items: center;
+    }
+    .img-box1 {
+        width: 90%;
+        margin-left: 60px;
+    }
+    .img-box2 {
+        width: 90%;
+        margin-left: 60px;
+    }
+    .img-box3 {
+        width: 90%;
+        margin-left: 60px;
+    }
+
+    i#font {
+        display: none;
+    }
+    .card.large {
+        grid-column: span 2;
+        grid-row: span 2;
+        width: 540px;
+        height: 750.52px;
+        border-radius: 16px;
+        background-color: white;
+        display: none;
+    }
+    .grid-container {
+        display: grid
+    ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    p.pa {
+        font-size: 14px;
+    }
+    footer.footer-section {
+        padding: 115px;
+        height: 1000px;
+    }
+    .social-icons {
+        display: flex
+    ;
+        gap: 5px;
+    }
+    .div {
+        margin-right: 110px;
+    }
+    header.section-center {
+        border: 1px solid #ffecb4;
+    }
+    .footer-container {
+        display: flex
+    ;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-content: stretch;
+        justify-content: center;
+    }
+    .social-icons {
+        margin-top: 30px;
+        display: flex
+    ;
+        gap: 10px;
+    }
+    span.date {
+
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+        background: #95b226;
+        border-radius: 10px;
+        color: white;
+    }
+    span.date2 {
+
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+        background:#5d58f0;;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    
+  }
